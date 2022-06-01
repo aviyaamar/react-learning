@@ -6,6 +6,10 @@ const ExpenseForm = () => {
   const [enteredTitle, setEnteredTitle] = useState('');
   const [enteredAmount, setEnteredAmount] = useState('');
   const [enteredDate, setEnteredDate] = useState('');
+  //הגישה המרכזית היא לתת לכל אחד מהמשתנים  סטייט לעצמו, אבל במידה ואנחנו
+  // עושים את זה אנחנו צריכים להמשיך לכתוב את המשתנים האחרים כיון שהסטייט מתרנדר בשינוי
+  // ואנו נקבל סטייט חדש ללא המשתנים הקיימים לכן צריך להשתמש ב -ספריד אופרטור להעתיק
+  //את כל מה שקיים, ואת השינוי 
   // const [userInput, setUserInput] = useState({
   //   enteredTitle: '',
   //   enteredAmount: '',
