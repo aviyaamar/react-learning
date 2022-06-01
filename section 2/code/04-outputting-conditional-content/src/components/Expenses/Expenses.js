@@ -15,7 +15,7 @@ const Expenses = (props) => {
   const filteredExpenses = props.items.filter((expense) => {
     return expense.date.getFullYear().toString() === filteredYear;
   });
-
+//this approche to become the jsx to readuble
   let expensesContent = <p>No expenses found.</p>;
 
   if (filteredExpenses.length > 0) {
