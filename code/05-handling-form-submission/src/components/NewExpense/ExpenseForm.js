@@ -42,7 +42,13 @@ const ExpenseForm = () => {
     //   enteredDate: event.target.value,
     // });
   };
-
+//use in prevenet default function-
+/**
+ * 
+ * ברגע שלא נשים את הפונקציה הנ"ל הדף יתרנדר כל פעם שנלחץ על 
+ * onSubmit  
+ * ולכן שמים את זה כדי למנוע את ההתנהגות הרגילה של הטופס 
+ */
   const submitHandler = (event) => {
     event.preventDefault();
     
