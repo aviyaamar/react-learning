@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import NewExpense from './components/NewExpense/NewExpense';
 import Expenses from './components/Expenses/Expenses';
 
+
+//this is a object to use all the project 
 const DUMMY_EXPENSES = [
   {
     id: 'e1',
